@@ -1,0 +1,24 @@
+.navbar-toggle .icon-bar {background: #fff none repeat scroll 0 0;}
+.navbar-toggle {background-color: #482456!important;}
+.margin-top15px{ margin-top: 15px;}
+.margin-top50px{ margin-top: 50px;}
+/*  Header Top */
+.header_top{height: 250px; background-color: #482456;}
+.green_bg{background: #aecc29;}
+.blue_bg{background: #2bb8bc;}
+.b_money{ height: 200px; }
+.b_money li{color:#fff;}
+.b_title{ color:#fff; text-align: center; font-size: 18px; font-weight: bold; padding:15px 0;}
+
+.footer{background: #4e5259; height: 50px;}
+.footer ul{float: right;  margin-top: 15px;}
+.footer li{ list-style: none;float:left;}
+.footer li a{color:#fff;padding: 0 0 0 20px;}
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+ {
+
+}
