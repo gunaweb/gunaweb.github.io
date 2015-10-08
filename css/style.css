@@ -4,6 +4,21 @@ body {
 
 .fleft{float:left;}
 .fright{float:right;}
+
+.carousel-control.left {
+  background-image: inherit!important;
+ 
+}
+
+.carousel-control.right {
+  background-image: inherit!important;
+ 
+}
+
+.carousel-control {
+  top: 44%!important;
+  width: 20px!important;
+}
 .navbar {
 	margin-bottom: 0!important;
 }
