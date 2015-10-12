@@ -1990,7 +1990,7 @@ website:   	http://www.themepunch.com
 	top: 50%;
 	font-family: "revicons";
 	color: #aaa;
-	font-size: 25px;
+	font-size: 18px;
 	margin-top: -12px;
 	-webkit-transition: color 0.3s;
 	-moz-transition: color 0.3s;
@@ -2042,7 +2042,7 @@ website:   	http://www.themepunch.com
 	width: 300px
 }
 .tparrows.preview2:hover {
-	background: #fff;
+	background: #ccc;
 }
 .tparrows.preview2:hover:after {
 	color: #000
