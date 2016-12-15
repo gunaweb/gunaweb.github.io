@@ -20,7 +20,7 @@ Table of Contents:
 13)	Responsive Design Section
 14)	Retina Ready Section
 15)	Process
-16)	Blog
+16)	product
 17)	Quotes
 18)	Portfolio
 19)	Testimonials
@@ -583,10 +583,6 @@ section#funfacts {
 /* ---------------------------------------------------------------------- TEAM ENDS ------------------ */
 
 /* ---------------------------------------------------------------------- SKILLS STARTS ------------------ */
-
-section#skills {
-	padding-top: 0px;
-}
 #skills .contents {
 	margin-top: 60px;
 }
@@ -724,10 +720,7 @@ section#features-tabs {
 
 /* ---------------------------------------------------------------------- WHAT WE OFFERS STARTS ------------------ */
 
-section#offer {
-	padding-top: 0px;
-	padding-bottom: 0px;
-}
+
 #offer .contents {
 	margin-top: 50px;
 }
@@ -752,8 +745,8 @@ section#offer {
 	height: 50px;
 	border-radius: 25px;
 	text-align: center;
-	background-color: #00acec;
-	color: #fff;
+	background-color: #fff;
+	color: #00acec;
 	float: left;
 }
 #offer ul.bullets-right li .icon i {
@@ -797,8 +790,8 @@ section#offer {
 	height: 50px;
 	border-radius: 25px;
 	text-align: center;
-	background-color: #00acec;
-	color: #fff;
+	background-color: #fff;
+	color: #00acec;
 	float: right;
 }
 #offer ul.bullets-left li .icon i {
@@ -995,31 +988,31 @@ section#satisfied {
 }
 /* ---------------------------------------------------------------------- SATISFIED SECTION ENDS ------------------ */
 
-/* ---------------------------------------------------------------------- BLOG STARTS ------------------ */
+/* ---------------------------------------------------------------------- product STARTS ------------------ */
 
-#blog .contents {
+#product .contents {
 	text-align: center;
 	margin-top: 30px;
 }
-#blog .contents .box {
+#product .contents .box {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border: 1px solid #ccc;
 }
-#blog .contents .box .picture {
+#product .contents .box .picture {
 	background-color: #01acec;
 	position: relative;
 }
-#blog .contents .box .picture:hover img {
+#product .contents .box .picture:hover img {
 	opacity: 0.5;
 }
-#blog .contents .box .block {
+#product .contents .box .block {
 	padding-top: 20px;
 	padding-right: 10px;
 	padding-bottom: 30px;
 	padding-left: 10px;
 }
-#blog .contents .box h2 {
+#product .contents .box h2 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 24px;
 	font-weight: 500;
@@ -1054,15 +1047,15 @@ section#satisfied {
 	font-weight: 500;
 	margin-top: 20px;
 }
-.blog-bullets {
+.product-bullets {
 	padding-top: 40px;
 }
-.blog-bullets ul {
+.product-bullets ul {
 	list-style-type: none;
 	margin: 0px;
 	padding: 0px;
 }
-.blog-bullets ul li {
+.product-bullets ul li {
 	margin: 0px;
 	padding: 0px;
 	padding-top: 6px;
@@ -1074,49 +1067,49 @@ section#satisfied {
 	border-bottom-style: solid;
 	border-bottom-color: #444;
 }
-#blog-page .contents .box .block {
+#product-page .contents .box .block {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
-#blog-page .contents .box h2 {
+#product-page .contents .box h2 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 24px;
 	font-weight: 500;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-#blog-page .contents .box .info {
+#product-page .contents .box .info {
 	font-family: 'Raleway', sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 1;
 }
-#blog-page .contents .box .info i {
+#product-page .contents .box .info i {
 	padding-right: 4px;
 	padding-left: 14px;
 }
-#blog-page .contents .box .info i:first-child {
+#product-page .contents .box .info i:first-child {
 	padding-left: 0px;
 }
-#blog-page .contents .box .description {
+#product-page .contents .box .description {
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	font-weight: 500;
 	margin-top: 20px;
 }
-#blog hr {
+#product hr {
 	padding-bottom: 20px;
 }
-#blog-page .social-icons {
+#product-page .social-icons {
 	margin-top: 20px;
 	margin-bottom: 50px;
 }
-#blog-page .social-icons ul {
+#product-page .social-icons ul {
 	margin: 0px;
 	padding: 0px;
 	list-style-type: none;
 }
-#blog-page .social-icons ul li a {
+#product-page .social-icons ul li a {
 	display: inline-block;
 	background-color: #cccccc;
 	font-family: 'Raleway', sans-serif!important;
@@ -1136,10 +1129,10 @@ section#satisfied {
 	transition: All 0.5s ease;
 	line-height: 2;
 }
-#blog-page .social-icons ul li a:hover {
+#product-page .social-icons ul li a:hover {
 	background-color: #28282e;
 }
-#blog-page .social-icons ul li i {
+#product-page .social-icons ul li i {
 	padding-top: 9px!important;
 	font-size: 28px;
 }
@@ -1153,7 +1146,7 @@ section#satisfied {
 	margin-right: 20px;
 	margin-bottom: 20px;
 }
-.blog-comments {
+.product-comments {
 	margin-top: 80px;
 }
 .media, .media .media {
@@ -1166,11 +1159,11 @@ section#satisfied {
 	margin-right: 20px;
 	margin-bottom: 20px;
 }
-.blog-comments .media-heading {
+.product-comments .media-heading {
 	font-size: 16px;
 	font-weight: 600;
 }
-.blog-comments .date {
+.product-comments .date {
 	font-size: 14px;
 	font-weight: 500;
 	color: #aaaaaa;
@@ -1214,7 +1207,7 @@ section#satisfied {
 	height: 50px;
 	border: 2px solid #aaa;
 }
-.blog-tabs {
+.product-tabs {
 	margin-top: 50px;
 }
 .tab-content ul {
@@ -2285,7 +2278,7 @@ section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, 
 .parallax-3 {
 	color: white;
 	background-attachment: fixed;
-	background-image: url(../images/parallax/3.jpg);
+	background-image: url(../images/parallax/sell_bg.jpg);
 	background-repeat: repeat-y;
 	background-position: 50% 0;
 	background-size: cover;
@@ -2317,7 +2310,7 @@ section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, 
 .parallax-7 {
 	color: white;
 	background-attachment: fixed;
-	background-image: url(../images/parallax/7.jpg);
+	background-image: url(../images/parallax/say_bg.jpg);
 	background-repeat: repeat-y;
 	background-position: 50% 0;
 	background-size: cover;
@@ -2325,7 +2318,7 @@ section.parallax-1, section.parallax-2, section.parallax-3, section.parallax-4, 
 .parallax-8 {
 	color: white;
 	background-attachment: fixed;
-	background-image: url(../images/parallax/8.jpg);
+	background-image: url(../images/parallax/contact_bg.jpg);
 	background-repeat: repeat-y;
 	background-position: 50% 0;
 	background-size: cover;
@@ -2544,3 +2537,65 @@ nav.smaller {
 }
 
 /* ---------------------------------------------------------------------- MEDIA ENDS ------------------ */
+#product { padding-bottom: 100px; padding-top: 150px;}
+.navbar-inverse{
+background-color: rgba(0, 0, 0, 0.2);
+	}
+.btn-white {
+  background-color: #fff;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  color: #00acec!important;
+  font-family: "Raleway",sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 16px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-white:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff!important;
+  text-decoration: none;
+}
+
+.btn-blue {
+  background-color: #00acec;
+  border: 2px solid #00acec;
+  border-radius: 4px;
+  color: #fff!important;
+  font-family: "Raleway",sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 16px;
+  text-transform: uppercase;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-blue:hover {
+  background-color: transparent;
+  border: 2px solid #00acec;
+  color: #00acec!important;
+  text-decoration: none;
+}
+
+
+
+
+#offer {
+	background-color: #00acec;
+	color: #fff;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+#offer .hi-icon-color .hi-icon {
+	box-shadow: 0 0 0 3px #fff;
+}
+#offer .hi-icon-color .hi-icon:after {
+	background: #fff;
+}
+#offer .hi-icon-color .hi-icon i {
+	color: #00acec;
+}

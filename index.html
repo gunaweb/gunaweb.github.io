@@ -1,289 +1,522 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Landing Page</title>
-<link href="https://fonts.googleapis.com/css?family=Muli:400,300,300italic,400italic" rel="stylesheet"/>
-<style type="text/css">
-.l_container {
-	width: 1000px;
-	margin: 0 auto;
-}
-p,.form_group {
-	font-family: "Muli",sans-serif;
-}
-.l_slider {
-	position: relative;
-}
-.l_form {
-	position: absolute;
-	right: 30px;
-	top: 30px;
-}
-.l_form input[type="text"], .l_form input[type="email"], .l_form input[type="number"] {
-	border: none;
-	border-radius: 5px;
-	padding: 5px;
-	font-family: "Muli",sans-serif;
-	width: 204px;
-	font-size: 14px;
-}.l_form form {
-    font-size: 15px;
-}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>kuIQly</title>
+<!-- All Stylesheets -->
+<link href="css/all-stylesheets.css" rel="stylesheet" type="text/css">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
 
-.l_form .form_group {
-	margin-bottom: 10px;
-}
-.l_form input[type="button"]:hover{ background-color:#1E2C5F;}
-.l_form input[type="button"] {
-	background-color: #eb2127;
-	border: 2px solid #fff;
-	border-radius: 5px;
-	color: #fff;
-	font-size: 16px;
-	padding: 5px;
-	cursor: pointer;
-font
-}
-.l_block {
-	border: 2px solid #eb2127;
-	position: relative;
-	width: 335px;
-	height: 190px;
-	float: left;
-	margin: 40px 70px;
-}
-.l_img {
-	background: #1e2c5f none repeat scroll 0 0;
-	border-radius: 50%;
-	height: 75px;
-	left: 0;
-	margin: 0 auto;
-	position: absolute;
-	right: 0;
-	text-align: center;
-	width: 75px;
-	top: -35px;
-}
-.l_img > img {
-	padding: 6px;
-}
-.l_block ul {
- padding: 0 0 0 30px;
-	position: absolute;
-	top: 35px;
-	color: #1e2c5f;
-	font-family: "Muli",sans-serif;
-}
-.l_block li {
-	color: #1e2c5f;
-	line-height: 20px;
-	font-family: "Muli",sans-serif;
-	font-size: 14px;
-}
-.l_footer {
-	position: relative;
-	border: 1px solid #ccc;
-	height: 50px; margin:35px 0;
-}
-.l_footer_nav {
-  display: inline-block;
-  left: 0;
-  margin: 0 auto;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 17px;
-  width: 620px;
-}
-.l_footer a {
-	font-family: "Muli",sans-serif;
-	padding: 0 10px;
-		float: left;
-}
-.l_footer li:last-child {
-	border-right: none;
-}.l_footer_title {
-  background: #fff none repeat scroll 0 0;
- font-family: "Muli",sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-  left: 0;
-  margin: 0 auto;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: -12px;
-  width: 200px;
-}	
-.l_sub_block {
-	background-color: #fff;
-	border-radius: 5px;
-	padding: 10px;
-	margin-bottom: 10px;width: 194px;
-}
-.l_slider_text {
-	position: absolute;
-	bottom: 30px;
-	left: 30px;
-}
-.l_slider_text-1, .l_slider_text-2, .l_slider_text-3 {
-	color: #1e2c5f;
-	font-family: "Muli",sans-serif;
-}
-.l_slider_text-1 {
-	font-size: 22px;
-	font-weight: bold;
-}
-.l_slider_text-2 {
-	font-size: 14px;
-}
-.l_slider_text-3 {
-	font-size: 18px;
-	font-weight: bold;
-}
-.cls {
-	clear: both;
-}
-.h_icon_title a {
-	color: #444444;
-	text-decoration: none;font-family: "Muli",sans-serif;
-}
-.h_icon_title {
-	color: #002561;
-	font-size: 24px;
-	line-height: 25px;
-	margin-bottom: 15px;
-}
-.h_icon_section p {
-	color: #444444;
-	font-size: 18px;
-	font-weight: 100;
-}
-.l_how_block {
-	float: left;
-	margin-right: 1%;
-	width: 32%;
-}
-.l_how_left{ float:left; width:20%;}
-.l_how_right{ float:right; width:80%;}
-</style>
 </head>
-
-<body >
-<div class="wrapper">
-  <div class="l_container">
-    <div class="l_header">
-      <div class="logo"> <img src="image/logo.png"/></div>
-    </div>
-    <div class="l_slider"> <img src="image/slider.jpg"/>
-      <div class="l_form">
-        <div class="form_group">
-          <input type="text" value="Name"/>
-        </div>
-        <div class="form_group">
-          <input type="email" value="E-mail"/>
-        </div>
-        <div class="form_group">
-          <input type="text" value="Contact Number"/>
-        </div>
-        <div class="form_group">
-          <input type="text" value="City"/>
-        </div>
-        <div class="l_sub_block">
-          <form action="">
-          <div class="form_group">
-          
-          
-        
-
-
-
-
-            <input type="radio" name="family" value=""/>
-            Individual Subscription</div>
-            
-          <div class="form_group">
-            <input type="radio" name="family" value=""/>
-            Family Subscription</div></form>
-        </div>
-        <div class="form_group">
-          <input type="button" value="REQUEST A CALL BACK >>"  />
-        </div>
+<body>
+<!-- PRELOADER STARTS
+			========================================================================= -->
+<div id="preloader">
+  <div class="preloader"><img src="images/icons/progress/progress.gif" width="36" height="36" alt=""></div>
+</div>
+<!-- /. PRELOADER ENDS
+			========================================================================= --> 
+<!-- NAVIGATION STARTS
+			========================================================================= -->
+<nav id="navigation" class="animated" data-animation="fadeInDown" data-animation-delay="100">
+  <div class="navbar navbar-inverse" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        <!--  Logo Starts --> 
+        <a class="navbar-brand" href="index.html"><img src="images/logo/logo.png" width="210" height="50" alt=""></a> 
+        <!-- Logo Ends --> 
       </div>
-      <div class="l_slider_text">
-        <div class="l_slider_text-1">India's First</div>
-        <div class="l_slider_text-2">Subscription Based & Affordable</div>
-        <div class="l_slider_text-3">Air Ambulance Service</div>
-      </div>
-    </div>
-    <div class="l_content">
-      <p>Aviators Air Rescue offers Emergency Transport of critically ill or injured patients where time is the essence to save the person's life or save him from permanent disability. We use  a combination of state-of-the-art dedicated rescue helicopters and highly trained medical teams to provide Emergency Transport, vital for trauma services </p>
-      <div class="l_block">
-        <div class="l_img"><img src="image/icon-1.png"/></div>
-        <ul>
-          <b>Individual Subscription</b>
-          <li>Up to INR 5 Lakh worth of Air Transport</li>
-          <li>Cover of up to INR 1 Lakh for Stabilization & Ground Ambulance</li>
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav pull-right">
+          <li class="current"><a href="#slider" data-toggle="collapse" data-target=".navbar-collapse">HOME</a></li>
+          <li><a href="#welcome" data-toggle="collapse" data-target=".navbar-collapse">ABOUT</a></li>
+          <li><a href="product.html" data-toggle="collapse" data-target=".navbar-collapse">OUR PRODUCTS</a></li>
+          <li><a href="" data-toggle="collapse" data-target=".navbar-collapse">PRICING</a></li>
+          <li><a href="" data-toggle="collapse" data-target=".navbar-collapse">LOGIN/REGISTER</a></li>
+          <li><a href="#contact" data-toggle="collapse" data-target=".navbar-collapse">CONTACT</a></li>
         </ul>
       </div>
-      <div class="l_block">
-        <div class="l_img"><img src="image/icon-2.png"/></div>
-        <ul>
-          <b>Family Subscription</b>
-          <li>Up to INR 5 Lakh worth of Air Transport</li>
-          <li>Plan covers children & family residing in different locations (2 adult and 2 minor) *Provided location is covered under our services.</li>
-        </ul>
-      </div>
+      <!--/.nav-collapse --> 
     </div>
-    <div class="cls"></div>
-    <div class="h_icon_section">
-          <div class="l_how_block">
-            
-              <div class="l_how_left"> <img src="image/h_icon-1.png"> </div>
-              <div class="l_how_right">
-                <div class="h_icon_title"> <a href="/how-it-works">How it Works</a> </div>
-                <p> Seamless Integration of Air Ambulance Fleet with
-                  24*7 Operations Control Centre, delivering Pre
-                  Hospital Care to International Standards. </p>
-              </div>
-            
-          </div>
-          <div class="l_how_block">
-           
-              <div class="l_how_left"> <img src="image/h_icon-2.png"> </div>
-              <div class="l_how_right">
-                <div class="h_icon_title"> <a href="">Key Team</a> </div>
-                <p> A Team of Aviation, Contact Centre and
-                  Emergency Health Care Professionals providing
-                  timely Emergency Response and Care. </p>
-              </div>
-           
-          </div>
-          <div class="l_how_block">
-            
-              <div class="l_how_left"> <img src="image/h_icon-3.png"> </div>
-              <div class="l_how_right">
-                <div class="h_icon_title"> <a href="">Benefits</a> </div>
-                <p> Affordable, Accessible Service for Individuals and Families, supported by Insurance. </p>
-              </div>
-            
-          </div>      
-    </div>
-    <div class="cls"></div>
-    <div class="l_footer">
-      <div class="l_footer_title">Services Available in</div>
-      <div class="l_footer_nav">
-        
-        <a href="">ANDRA PRADESH</a>
-         <a href="">KARNATAKA</a>
-          <a href="">KERALA</a>
-          <a href="">TAMIL NADU</a>
-          <a href="">TELANGANA</a>
-        
-      </div>
+  </div>
+</nav>
+<!-- /. NAVIGATION ENDS
+			========================================================================= --> 
+<!-- SLIDER STARTS
+			========================================================================= -->
+<div id="slider">
+  <div class="tp-banner-container">
+    <div class="tp-banner" >
+      <ul>
+        <!-- SLIDE 1  -->
+        <li data-transition="fade" data-slotamount="5" data-masterspeed="700"  data-thumb="images/slider/fullwidth/slider-1.png"  data-saveperformance="on"  data-title="One Page" > 
+          <!-- MAIN IMAGE --> 
+          <img src="images/slider/fullwidth/dummy.png"  alt="slidebg1" data-lazyload="images/slider/fullwidth/slider_1.jpg" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat"> 
+          <!-- LAYER NR. 1 -->
+          <div class="tp-caption small_text-2 sfb customout"
+								data-x="center"                                
+								data-y="200"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="800"
+								data-start="1000"
+								data-easing="Power4.easeOut"
+								data-endspeed="300"
+								data-endeasing="Power1.easeIn"
+								data-captionhidden="off"
+								style="z-index: 2">WELCOME TO</div>
+          <!-- LAYER NR. 2 -->
+          <div class="tp-caption very_large_text customin customout tp-resizeme"
+								data-x="center"                                
+								data-y="235"
+								data-customin="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="800"
+								data-start="1500"                               
+								data-easing="Power3.easeInOut"
+								data-splitin="chars"
+								data-splitout="chars"
+								data-elementdelay="0.08"
+								data-endelementdelay="0.08"   
+								data-endspeed="300"
+								data-endeasing="Power1.easeIn"
+								data-captionhidden="off"
+								style="z-index: 3">kuIQ</div>
+          <!-- LAYER NR. 3 -->
+          <div class="tp-caption small_text sfb customout"
+								data-x="center"                               
+								data-y="340"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="800"
+								data-start="3500"
+								data-easing="Power4.easeOut"
+								data-endspeed="300"
+								data-endeasing="Power1.easeIn"
+								data-captionhidden="off"
+								style="z-index: 4">Sell // Stock </div>
+          <!-- LAYER NR. 4 -->
+          <div class="tp-caption medium_text sfb customout"
+								data-x="center"
+								data-hoffset="0"
+								data-y="400"
+								data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+								data-speed="800"
+								data-start="4000"
+								data-easing="Power4.easeOut"
+								data-endspeed="300"
+								data-endeasing="Power1.easeIn"
+								data-captionhidden="on"
+								style="z-index: 5"><a href="#contact" class="btn-white">GET FREE QUOTE</a></div>
+        </li>
+      </ul>
+      <div class="tp-bannertimer tp-bottom"></div>
     </div>
   </div>
 </div>
+<!-- /. SLIDER ENDS
+			========================================================================= --> 
+<!-- WELCOME STARTS
+			========================================================================= -->
+<section id="welcome" class="texture-13 hide">
+  <div class="container">
+    <div class="row header">
+      <div class="col-md-10 col-md-offset-1">
+        <h2 class="animated" data-animation="fadeInUp" data-animation-delay="100" style="font-weight:100;">Want to Sell your products Quickly?</h2>
+        <div class="description animated" data-animation="fadeInUp" data-animation-delay="300">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas.</div>
+        <!-- Load More Button Starts -->
+        <div class="buttons animated" data-animation="fadeInUp" data-animation-delay="400"><a href="#" class="hidemobile">Take a Guided Tour</a>&nbsp;&nbsp;&nbsp;<a href="#">Get Started</a></div>
+        <!-- Load More Button Ends --> 
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /. WELCOME ENDS
+			========================================================================= --> 
+
+<!-- SKILLS STARTS
+			========================================================================= -->
+<section id="skills" class="grey-bg">
+  <div class="container">
+    <div class="row header">
+      <div class="col-md-10 col-md-offset-1"> 
+        <!-- Big Icon Starts -->
+        <div class="icon hi-icon-color hi-icon-effect animated" data-animation="fadeInUp" data-animation-delay="100"> <span class="hi-icon"><i class="fa fa-wrench"></i></span> </div>
+        <!-- Big Icon Starts -->
+        <h2 class="animated" data-animation="fadeInUp" data-animation-delay="200">Why Choose Us</h2>
+        <div class="description animated" data-animation="fadeInUp" data-animation-delay="300">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</div>
+      </div>
+    </div>
+    <!-- Skills Contents Starts -->
+    <div class="row contents"> 
+      <!-- Skills Left Columns Starts -->
+      <div class="col-md-5 col-md-offset-1">
+        <div class="progress animated" data-animation="fadeInLeft" data-animation-delay="200">
+          <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"> HTML5 / CSS3 <span>80%</span> </div>
+        </div>
+        <div class="progress animated" data-animation="fadeInLeft" data-animation-delay="400">
+          <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"> jQuery <span>70%</span> </div>
+        </div>
+        <div class="progress animated" data-animation="fadeInLeft" data-animation-delay="600">
+          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"> Wordpress <span>50%</span> </div>
+        </div>
+        <div class="progress animated" data-animation="fadeInLeft" data-animation-delay="800">
+          <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"> Print <span>90%</span> </div>
+        </div>
+        <div class="progress animated" data-animation="fadeInLeft" data-animation-delay="1000">
+          <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="65" style="width: 65%;"> Illustration <span>65%</span> </div>
+        </div>
+      </div>
+      <!-- Skills Right Columns Starts -->
+      <div class="col-md-5">
+        <div class="progress animated" data-animation="fadeInRight" data-animation-delay="200">
+          <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"> jQuery <span>70%</span> </div>
+        </div>
+        <div class="progress animated" data-animation="fadeInRight" data-animation-delay="400">
+          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"> Wordpress <span>50%</span> </div>
+        </div>
+        <div class="progress animated" data-animation="fadeInRight" data-animation-delay="600">
+          <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"> Print <span>90%</span> </div>
+        </div>
+        <div class="progress animated" data-animation="fadeInRight" data-animation-delay="800">
+          <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="65" style="width: 65%;"> Illustration <span>65%</span> </div>
+        </div>
+        <div class="progress animated" data-animation="fadeInRight" data-animation-delay="1000">
+          <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="95" style="width: 95%;"> Photography <span>95%</span> </div>
+        </div>
+      </div>
+    </div>
+    <!-- Skills Contents Starts --> 
+  </div>
+</section>
+<!-- /. SKILLS ENDS
+			========================================================================= --> 
+
+<!-- OFFER PARALLAX STARTS
+			========================================================================= -->
+<section id="offer">
+  <div class="container">
+    <div class="row header">
+      <div class="col-md-10 col-md-offset-1"> 
+        <!-- Big Icon Starts -->
+        <div class="icon hi-icon-color hi-icon-effect animated" data-animation="fadeInUp" data-animation-delay="100"> <span class="hi-icon"><i class="fa fa-paper-plane"></i></span> </div>
+        <!-- Big Icon Starts -->
+        <h2 class="animated" data-animation="fadeInUp" data-animation-delay="200">KuIQ Sell</h2>
+        <div class="description animated" data-animation="fadeInUp" data-animation-delay="300">FIELD SALES MADE SMART</div>
+      </div>
+    </div>
+    <!-- Contents Starts -->
+    <div class="row contents"> 
+      <!-- Column 1 Starts -->
+      <div class="col-md-4">
+        <ul class="bullets-left animated" data-animation="fadeInLeft" data-animation-delay="500">
+          <li>
+            <div class="icon"><i class="fa fa-tablet"></i></div>
+            <div class="detail">
+              <h2>Customer Management</h2>
+              <div class="description">Manage customer contacts. Auto-update geo-location. Get customer insights. View relationship history.</div>
+            </div>
+          </li>
+          <li>
+            <div class="icon"><i class="fa fa-code"></i></div>
+            <div class="detail">
+              <h2>Order Management</h2>
+              <div class="description">Visual Catalogue. Multi-UoM Products. Multi-Taxes. Location check-ins with every order.  Integrated with inventory systems.</div>
+            </div>
+          </li>
+          <li>
+            <div class="icon"><i class="fa fa-code"></i></div>
+            <div class="detail">
+              <h2>Route Planner</h2>
+              <div class="description">Plan routes with meeting times. Add pit-stops and breaks. Save routes. Navigate to meeting points. Check-in from customer location.</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- Column 1 Ends --> 
+      <!-- Column 2 Starts -->
+      <div class="col-md-4 animated" data-animation="fadeInUp" data-animation-delay="600"> <img src="images/mobile_banner.png" class="img-responsive" alt=""> </div>
+      <!-- Column 2 Ends --> 
+      <!-- Column 3 Starts -->
+      <div class="col-md-4">
+        <ul class="bullets-right animated" data-animation="fadeInRight" data-animation-delay="500">
+          <li>
+            <div class="icon"><i class="fa fa-tablet"></i></div>
+            <div class="detail">
+              <h2>Activity / Meeting Manager</h2>
+              <div class="description">Track visit history. Assign tasks to representatives on field. Schedule appointments with customers. Works seamlessly with calendar on mobile.</div>
+            </div>
+          </li>
+          <li>
+            <div class="icon"><i class="fa fa-code"></i></div>
+            <div class="detail">
+              <h2>Secured & Offline</h2>
+              <div class="description">Define custom permissions. Offline availability and synchronization. Remote data-wipe.</div>
+            </div>
+          </li>
+          <li>
+            <div class="icon"><i class="fa fa-code"></i></div>
+            <div class="detail">
+              <h2>Expense Tracker</h2>
+              <div class="description">Raise expense claims from mobile. Multi-level approval process. Link expenses with revenue for the day and the route plan.</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-12 text-center"> <a href="#" class="btn-white">Get Started</a></div>
+      <!-- Column 3 Ends --> 
+    </div>
+    <!-- Contents Ends --> 
+  </div>
+</section>
+<!-- /. OFFER PARALLAX ENDS
+			========================================================================= --> 
+
+<!-- SERVICES STARTS
+			========================================================================= -->
+<section id="services">
+  <div class="container">
+    <div class="row header">
+      <div class="col-md-10 col-md-offset-1"> 
+        <!-- Big Icon Starts -->
+        <div class="icon hi-icon-color hi-icon-effect animated" data-animation="fadeInUp" data-animation-delay="100"> <span class="hi-icon"><i class="fa fa-umbrella"></i></span> </div>
+        <!-- Big Icon Starts -->
+        <h2 class="animated" data-animation="fadeInUp" data-animation-delay="200">kuIQ Stock</h2>
+        <div class="description animated" data-animation="fadeInUp" data-animation-delay="300">INVENTORY MANAGEMENT MADE SMART</div>
+      </div>
+    </div>
+    <!-- Services Contants Starts -->
+    <div class="contents animated" data-animation="fadeInUp" data-animation-delay="500"> 
+      <!-- Service Block 1 Starts -->
+      <div class="col-md-6 block">
+        <div class="icon"><i class="fa fa-leaf"></i></div>
+        <div class="detail">
+          <h2>Vendors & Purchase Orders</h2>
+          <div class="description">Manage multiple vendors for product with their prices. Generate purchase orders manually or based on MoQ.</div>
+        </div>
+      </div>
+      <!-- Service Block 1 Ends --> 
+      <!-- Service Block 2 Starts -->
+      <div class="col-md-6 block">
+        <div class="icon"><i class="fa fa-picture-o"></i></div>
+        <div class="detail">
+          <h2>Multi Warehouse</h2>
+          <div class="description">Create multiple warehouses. Transfer stocks from one to the other. Maintain stock control at each stock locations.</div>
+        </div>
+      </div>
+      <!-- Service Block 2 Ends --> 
+      <!-- Service Block 3 Starts -->
+      <div class="col-md-6 block">
+        <div class="icon"><i class="fa fa-magic"></i></div>
+        <div class="detail">
+          <h2>Customers & Sales Orders</h2>
+          <div class="description">Organize customer data and their sales order history. Create customer specific pricelists. Integrated with KUIQ SELL</div>
+        </div>
+      </div>
+      <!-- Service Block 3 Ends --> 
+      <!-- Service Block 4 Starts -->
+      <div class="col-md-6 block">
+        <div class="icon"><i class="fa fa-tablet"></i></div>
+        <div class="detail">
+          <h2>Returns Management</h2>
+          <div class="description">Easy purchase and sales returns linked to the stock locations.  Run through quality inspections before adding them back to stocks.</div>
+        </div>
+      </div>
+      <!-- Service Block 4 Ends --> 
+      <!-- Service Block 5 Starts -->
+      <div class="col-md-6 block">
+        <div class="icon"><i class="fa fa-tablet"></i></div>
+        <div class="detail">
+          <h2>Product Management</h2>
+          <div class="description">Manage products and attributes. Multiple UoMs. Multiple variants. Product specific taxes. Category hierarchy.</div>
+        </div>
+      </div>
+      <!-- Service Block 5 Ends --> 
+      <!-- Service Block 6 Starts -->
+      <div class="col-md-6 block">
+        <div class="icon"><i class="fa fa-tablet"></i></div>
+        <div class="detail">
+          <h2>Serial, Lot & Batch Tracking</h2>
+          <div class="description">Keep track of products by their serial number. Maintain inventory by lots and batches along with their expiry dates.</div>
+        </div>
+      </div>
+      <!-- Service Block 6 Ends --> 
+      <!-- Service Block 7 Starts -->
+      <div class="col-md-6 block">
+        <div class="icon"><i class="fa fa-tablet"></i></div>
+        <div class="detail">
+          <h2>Stock Valuation</h2>
+          <div class="description">Valuate stock based on the manual product costs by warehouse or through FiFO / LIFO methods.</div>
+        </div>
+      </div>
+      <!-- Service Block 7 Ends --> 
+      <!-- Service Block 8 Starts -->
+      <div class="col-md-6 block">
+        <div class="icon"><i class="fa fa-tablet"></i></div>
+        <div class="detail">
+          <h2>And…..,</h2>
+          <div class="description">Approval processes. Workflows. Reports and dashboards. User permissions. Integration with any financial systems that support APIs.</div>
+        </div>
+      </div>
+      <!-- Service Block 8 Ends -->
+      <div class="col-md-12 text-center"> <a href="#" class="btn-blue">Get Started</a></div>
+    </div>
+  </div>
+  <!-- Services Contants Ends -->
+  </div>
+</section>
+<!-- /. SERVICES ENDS
+			========================================================================= --> 
+
+<!-- FOOTER STARTS
+			========================================================================= -->
+<footer id="footer">
+  <div class="container">
+    <div class="row header">
+      <div class="col-md-10 col-md-offset-1"> 
+        <!-- Big Icon Starts -->
+        <div class="icon hi-icon-color hi-icon-effect animated" data-animation="fadeInUp" data-animation-delay="100"> <span class="hi-icon"><i class="fa fa-heart"></i></span> </div>
+        <!-- Big Icon Starts --> 
+        <!-- Line 1 Starts -->
+        <h2 class="line-1 animated" data-animation="fadeInUp" data-animation-delay="200">+1.234.567.8900<br>
+          <a href="mailto:support@kuiqly.com" target="_blank">support@kuiqly.com</a><br>
+        </h2>
+        <!-- Line 2 Starts -->
+        <div class="line-2 animated" data-animation="fadeInUp" data-animation-delay="300"> © 2016 kuIqly<br>
+          All Rights Reserved. </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /. FOOTER ENDS
+			========================================================================= --> 
+<!-- TO TOP STARTS
+			========================================================================= --> 
+<a href="#" class="scrollup">scroll</a> 
+<!-- /. TO TOP ENDS
+			========================================================================= --> 
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.0/jquery.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap/bootstrap.min.js"></script> 
+<!-- Overlay Resize Menu --> 
+<script src="js/overlay-resizemenu/js/classie.js"></script> 
+<!-- Parallax --> 
+<script type="text/javascript" src="js/parallax/jquery.parallax-1.1.3.js"></script> 
+<script type="text/javascript" src="js/parallax/jquery.localscroll-1.2.7-min.js"></script> 
+<script type="text/javascript" src="js/parallax/jquery.scrollTo-1.4.2-min.js"></script> 
+<!-- Style Switcher --> 
+<script type="text/javascript" src="js/styleswitcher/styleswitcher.js"></script> 
+<!-- Animation --> 
+<script type="text/javascript" src="js/animation/jquery.appear.js"></script> 
+<!-- AJAX Contact Form --> 
+<script type="text/javascript" src="js/contact/contact-form.js"></script> 
+<!-- Slider Revolution 4.x Scripts --> 
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script> 
+<script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.js"></script> 
+<script type="text/javascript">
+			jQuery(document).ready(function() {
+			
+				jQuery('.tp-banner').show().revolution(
+				{
+					dottedOverlay:"none",
+					delay:10000,
+					startwidth:1170,
+					startheight:700,
+					hideThumbs:200,
+					
+					thumbWidth:100,
+					thumbHeight:50,
+					thumbAmount:5,
+					
+					navigationType:"bullet",
+					navigationArrows:"solo",
+					navigationStyle:"preview4",
+					
+					touchenabled:"on",
+					onHoverStop:"off",
+					
+					swipe_velocity: 0.7,
+					swipe_min_touches: 1,
+					swipe_max_touches: 1,
+					drag_block_vertical: false,
+											
+					parallax:"mouse",
+					parallaxBgFreeze:"on",
+					parallaxLevels:[7,4,3,2,5,4,3,2,1,0],
+											
+					keyboardNavigation:"off",
+					
+					navigationHAlign:"center",
+					navigationVAlign:"bottom",
+					navigationHOffset:0,
+					navigationVOffset:20,
+			
+					soloArrowLeftHalign:"left",
+					soloArrowLeftValign:"center",
+					soloArrowLeftHOffset:20,
+					soloArrowLeftVOffset:0,
+			
+					soloArrowRightHalign:"right",
+					soloArrowRightValign:"center",
+					soloArrowRightHOffset:20,
+					soloArrowRightVOffset:0,
+							
+					shadow:0,
+					fullWidth:"off",
+					fullScreen:"on",
+			
+					spinner:"spinner4",
+					
+					stopLoop:"off",
+					stopAfterLoops:-1,
+					stopAtSlide:-1,
+			
+					shuffle:"off",
+					
+					autoHeight:"off",						
+					forceFullWidth:"off",						
+					
+					hideThumbsOnMobile:"off",
+					hideNavDelayOnMobile:1500,						
+					hideBulletsOnMobile:"off",
+					hideArrowsOnMobile:"off",
+					hideThumbsUnderResolution:0,
+					
+					hideSliderAtLimit:0,
+					hideCaptionAtLimit:480,
+					hideAllCaptionAtLilmit:0,
+					startWithSlide:0,
+					fullScreenOffsetContainer: ""	
+				});
+				
+			});	//ready
+			
+		</script> 
+<!-- ScrollTo --> 
+<script type="text/javascript" src="js/nav/jquery.scrollTo.js"></script> 
+<script type="text/javascript" src="js/nav/jquery.nav.js"></script> 
+<!-- Sticky --> 
+<script type="text/javascript" src="js/sticky/jquery.sticky.js"></script> 
+<!-- Isotope --> 
+<script type="text/javascript" src="js/isotope/jquery.isotope.min.js"></script> 
+<script type="text/javascript" src="js/isotope/custom-isotope-mansory.js"></script> 
+<!-- Owl Carousel --> 
+<script type="text/javascript" src="owl-carousel/owl-carousel/owl.carousel.js"></script> 
+<!-- Magnific Popup core JS file --> 
+<script type="text/javascript" src="js/magnific-popup/jquery.magnific-popup.js"></script> 
+<!-- Retina --> 
+<script type="text/javascript" src="js/retina/retina.js"></script> 
+<!-- FitVids --> 
+<script type="text/javascript" src="js/fitvids/jquery.fitvids.js"></script> 
+<!-- SmoothScroll --> 
+<script type="text/javascript" src="js/SmoothScroll/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/custom/custom.js"></script>
 </body>
 </html>
