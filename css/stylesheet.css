@@ -2086,8 +2086,8 @@ section#videos {
 #footer {
 	background-color: #00acec;
 	color: #fff;
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 0;
+	padding-bottom: 0;
 }
 #footer .hi-icon-color .hi-icon {
 	box-shadow: 0 0 0 3px #fff;
