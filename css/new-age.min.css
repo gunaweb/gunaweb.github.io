@@ -457,9 +457,9 @@ background:0 0
 	margin: 5px 0 0 15px;
 }
 .p_main_title {
-	font-size: 40px;
-	 margin: 10% 5% 0;
-	text-align: center;
+  font-size: 40px;
+  margin: 10% 0 15%;
+  text-align: center;
 }
 .dropdown-menu {
 	background-color: transparent;
@@ -500,8 +500,10 @@ background:0 0
 	background: #F8F8F8;
 }
 .p_section {
-	padding: 50px 0;
+	padding: 75px 0;
 }
+.pl75{padding-left: 75px!important;}
+.pr75{padding-right: 75px!important;}
 .p_img {
 	text-align: center;
 }
@@ -535,19 +537,27 @@ background:0 0
   line-height: 35px;
   padding: 20px 90px;
 }
-table.enquiry_from  input[type="text"] ,.enquiry_from textarea {
+
+.enquiry_from label {
+  width: 100%; font-weight: normal;
+}
+.enquiry_from  input[type="text"] ,.enquiry_from textarea {
   border: medium none;
   border-radius: 3px;
   padding: 5px 10px;
   width: 100%;color: #000;
 }
-table.enquiry_from  input[type="submit"],table.enquiry_from input[type="reset"]{background:#34495E; border: none; font-size:14px; padding: 5px 10px; color:#fff;}
-table.enquiry_from {
+.enquiry_from  input[type="submit"],.enquiry_from input[type="reset"]{background:#34495E; border: none; font-size:14px; padding: 5px 10px; color:#fff;}
+.enquiry_from {
   background: #33c0ce none repeat scroll 0 0;
-  display: table-cell;
   padding: 10px 15px;
+  width: 85%;
 }
-
+.e_header_text{
+	font-size: 16px;
+    padding: 10px 0;
+    text-align: left;
+}
 .pricing_title {
   font-size: 36px;
   padding: 0 10%;
@@ -555,15 +565,12 @@ table.enquiry_from {
 }
 
 .p_tag_middle {
-    min-height: 200px;
+  padding: 90px 0 60px;
 }
-
 .p_tag_price {
-  bottom: 85px;
+
   font-size: 30px;
-  left: 0;
-  position: absolute;
-  right: 0;
+
 }
 .p_tag_title {
   font-size: 18px;
@@ -572,11 +579,7 @@ table.enquiry_from {
   padding: 15px 0;
 }
 .p_tab_per {
-  bottom:65px;
   font-size: 18px;
-  left: 0;
-  position: absolute;
-  right: 0;
 }
 .p_tag_footer a {
 	background: #fff none repeat scroll 0 0;
@@ -590,3 +593,11 @@ table.enquiry_from {
 }
 .p_tag_footer a:hover{color:#435C71;
 }
+.enquiry_block {
+  margin-bottom: 5px;
+}
+.e_s_heading {
+  font-size: 42px;
+  padding: 10px 0;
+}
+.e_s_text{ font-size:18px; padding: 10px 0;}
