@@ -495,12 +495,34 @@ background:0 0
 	color: #575E6C;
 	font-weight: normal;
 }
+
+.pp_text.bold {
+  font-weight: 600;
+}
+.pp_title {
+	color: #fff;
+	font-size: 20px;
+	padding: 15px;
+	line-height: 30px;background: #39CAD7;
+}
+.pp_text {
+  color: #575e6c;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  padding: 5px 0;text-align: justify;
+}
+.pp_block{ background: #fff;padding: 15px;margin-bottom: 20px;}
 .tab_section p{font-size:22px;}
 .p_bg {
 	background: #F8F8F8;
 }
 .p_section {
 	padding: 75px 0;
+}
+
+.pp_section {
+	padding: 20px 0;
 }
 .pl75{padding-left: 75px!important;}
 .pr75{padding-right: 75px!important;}
