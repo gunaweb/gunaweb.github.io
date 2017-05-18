@@ -345,7 +345,7 @@ footer p, footer ul li a {
 	font-size: 12px
 }
 footer, footer ul li a {
-	color: rgba(255,255,255,.3)
+	color:#fff;
 }
 section.contact ul.list-social li.social-twitter a {
 	background-color: #1da1f2
