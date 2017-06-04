@@ -831,7 +831,7 @@ ul#menu > li.shop-menu {
 ul#menu li > a > i {
   margin: 0 -5px 0 10px;
 }
-ul#menu > li:hover > a {
+ul#menu > li:hover > a,ul#menu > li.active > a {
   background-color: #43474d;
   color: #ffffff !important;
 }
@@ -7221,3 +7221,6 @@ li.active > a:focus {
     display: none;
   }
 }
+
+
+
