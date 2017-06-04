@@ -2224,8 +2224,11 @@ p.price-range > .button-green {
   border: 1px solid #3c96d2;
 }
 .description {
-  margin-top: 30px;
-  width: 100%;
+	color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 30px;
+    width: 100%;
 }
 .description tr.gray {
   background-color: #f9f9f9;
