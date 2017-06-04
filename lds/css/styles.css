@@ -775,7 +775,7 @@ nav {
 }
 .scroll-to-fixed-fixed .logo img {
   height: auto;
-  max-width: 45px;
+  max-width: 60px;
   padding-top: 5px;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
@@ -7229,4 +7229,6 @@ li.active > a:focus {
   color: #000;
 }
 
-
+.logo img {
+  width: 95px;
+}
