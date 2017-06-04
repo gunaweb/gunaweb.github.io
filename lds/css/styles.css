@@ -7223,4 +7223,10 @@ li.active > a:focus {
 }
 
 
+.service p {
+  font-size: 16px;
+  line-height: 25px;
+  color: #000;
+}
+
 
